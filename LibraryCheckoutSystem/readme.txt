@@ -1,9 +1,8 @@
-Ricardo Carrillo
-Lab 4
+Library checkout system with c++
 
-1. Most of the program works except for initCommands() on the highest level within library.h/.cpp which is supposed to handle parsing
+1. Most of the program tested except for initCommands() on the highest level within library.h/.cpp which is supposed to handle parsing
 and execution of data4commands. The error is somewhere in how the data file is parsed. , but only the base case
-(bad input message) is being called. The program doesnt exit correctly either, so no typescript is available.
+(bad input message) is being called.
 
 2. A Hash table is implementend in PatronHashTable .h/.cpp that is used to store patrons. 
 
@@ -15,4 +14,4 @@ and execution of data4commands. The error is somewhere in how the data file is p
 and more easily extended. Same thing with checkout/ return which are exactly the same 
 besides the lover level function call to librarySList. 
 
-6. Im proud of the skip list I implemented in librarySList to store the books by catagory and print them sorted. 
+6. Skip list implemented in librarySList to store the books by catagory and print them sorted. 
