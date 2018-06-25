@@ -1,1 +1,1 @@
-Add all files to same directory, and compile on linux using latest version of g++. 
+Add all files to same directory, and compile on linux using latest version of g++. Input format provided in text file.
